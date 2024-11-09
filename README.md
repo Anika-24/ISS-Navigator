@@ -1,1 +1,3 @@
-#ISS tracker app
+ISS Navigator
+
+The ISS Location app tracks the real-time position of the International Space Station (ISS) using data from API. For tracking, I used a combination of 'axios' for making the API request and 'setInterval' for periodic updates. The app fetches the ISS's latitude, longitude, altitude, and velocity every 5 seconds. The location is displayed on a map, with a marker showing the ISS's current position. The app also includes a dynamic user interface with a background image and real-time updates to provide an engaging experience. The map's region updates based on the ISS's coordinates, creating an interactive and visually informative interface. It tracks meteors and gives them real time location and is very fascinating for space lovers!
